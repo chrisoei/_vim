@@ -9,7 +9,7 @@ function! SetTabs(t)
   let &l:tabstop=a:t
 endfunction
 
-call SetTabs(2)
+" call SetTabs(2)
 
 set expandtab
 
