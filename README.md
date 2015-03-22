@@ -5,6 +5,11 @@ To set it up:
 ```bash
 git clone -o github git@github.com:chrisoei/_vim.git ~/.vim
 ```
+or
+```bash
+git clone -o github https://github.com/chrisoei/_vim.git ~/.vim
+```
+
 
 and then put the following line in ~/.vimrc:
 
