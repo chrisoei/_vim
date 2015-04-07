@@ -11,9 +11,9 @@ git clone -o github https://github.com/chrisoei/_vim.git ~/.vim
 ```
 
 
-and then put the following line in ~/.vimrc:
+and tell ~/vimrc to refer to it with:
 
 ```
-source ~/.vim/vimrc
+echo 'source ~/.vim/vimrc' >> ~/.vimrc
 ```
 
