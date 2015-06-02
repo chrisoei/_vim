@@ -1,3 +1,4 @@
+set background=dark
 set nocompatible
 set modeline
 
