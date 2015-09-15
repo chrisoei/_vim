@@ -14,6 +14,8 @@ endfunction
 
 set expandtab
 
+let g:rainbow_active = 1
+
 filetype plugin indent on
 syntax on
 
