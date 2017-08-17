@@ -1,8 +1,15 @@
 set background=dark
-set nocompatible
-set modeline
-
+set encoding=utf-8
+set expandtab
 set fileencodings=utf-8
+setglobal fileencoding=utf-8
+set fileformat=unix
+set modeline
+set nocompatible
+set nohlsearch
+set noincsearch
+
+au BufRead,BufNewFile *.sld set filetype=scheme
 
 function! SetTabs(t)
   let &l:shiftwidth=a:t
@@ -12,10 +19,8 @@ endfunction
 
 " call SetTabs(2)
 
-set expandtab
-
 let g:rainbow_active = 1
+let loaded_matchparen = 1
 
 filetype plugin indent on
 syntax on
-
