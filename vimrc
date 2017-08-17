@@ -17,7 +17,7 @@ function! SetTabs(t)
   let &l:tabstop=a:t
 endfunction
 
-" call SetTabs(2)
+call SetTabs(2)
 
 let g:rainbow_active = 1
 let loaded_matchparen = 1
