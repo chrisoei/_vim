@@ -5,9 +5,11 @@ set fileencodings=utf-8
 setglobal fileencoding=utf-8
 set fileformat=unix
 set modeline
+set nocindent
 set nocompatible
 set nohlsearch
 set noincsearch
+set nosmartindent
 
 au BufRead,BufNewFile *.sld set filetype=scheme
 
